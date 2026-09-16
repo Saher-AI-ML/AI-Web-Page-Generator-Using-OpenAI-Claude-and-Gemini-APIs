@@ -1,4 +1,4 @@
-# 🚀 AI Web Page Generator — OpenAI vs. Claude vs. Gemini
+# AI Web Page Generator — OpenAI vs. Claude vs. Gemini
 
 Give it a startup name and a one-paragraph pitch — get back a fully designed,
 production-style landing page in seconds. This notebook pits three of the world's
