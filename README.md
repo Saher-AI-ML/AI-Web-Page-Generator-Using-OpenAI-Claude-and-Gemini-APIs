@@ -1,4 +1,8 @@
-# AI Web Page Generator — OpenAI vs. Claude vs. Gemini
+# 🚀 AI Web Page Generator — OpenAI vs. Claude vs. Gemini
+
+[![View on nbviewer](https://img.shields.io/badge/render-nbviewer-orange?logo=jupyter)](https://nbviewer.org/github/Saher-AI-ML/AI-Web-Page-Generator-Using-OpenAI-Claude-and-Gemini-APIs/blob/main/AI%20Web%20Page%20Generator%20Using%20OpenAI%2C%20Claude%2C%20and%20Gemini%20APIs.ipynb)
+
+> **Note:** GitHub's built-in notebook preview occasionally fails to render fully (a known limitation of its third-party rendering pipeline, unrelated to the notebook itself). If some cells appear missing below, click the badge above to view the complete notebook on nbviewer.
 
 Give it a startup name and a one-paragraph pitch — get back a fully designed,
 production-style landing page in seconds. This notebook pits three of the world's
