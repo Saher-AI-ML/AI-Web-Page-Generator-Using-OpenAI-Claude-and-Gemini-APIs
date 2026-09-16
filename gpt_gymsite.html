@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Power Gym - AI-Powered Gym Management</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        header {
+            background: #007BFF;
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+            font-size: 2em;
+            position: relative;
+        }
+        header h1 {
+            font-size: 2.5em;
+            margin: 0;
+            font-weight: bold;
+        }
+        header p {
+            font-size: 1.2em;
+            font-style: italic;
+        }
+        .hero {
+            background: #6c757d;
+            color: white;
+            padding: 80px 20px;
+            text-align: center;
+            transition: background 0.3s;
+        }
+        .hero:hover {
+            background: #5a6268;
+        }
+        .hero h2 {
+            font-size: 2.5em;
+            margin: 0;
+        }
+        .hero p {
+            font-size: 1.2em;
+            margin: 20px 0;
+        }
+        .cta-button {
+            background: #28a745;
+            color: white;
+            padding: 15px 30px;
+            border: none;
+            font-size: 1.2em;
+            cursor: pointer;
+            transition: background 0.3s;
+            text-decoration: none;
+        }
+        .cta-button:hover {
+            background: #218838;
+        }
+        .features, .how-it-works, .testimonials, .pricing {
+            padding: 40px 20px;
+            text-align: center;
+        }
+        .features h2, .how-it-works h2, .testimonials h2, .pricing h2 {
+            font-size: 2em;
+            margin-bottom: 20px;
+        }
+        .feature, .step, .testimonial {
+            margin: 20px 0;
+        }
+        .feature p, .step p, .testimonial p {
+            font-size: 1.1em;
+        }
+        .pricing-table {
+            display: flex;
+            justify-content: center;
+            margin-top: 20px;
+        }
+        .pricing-plan {
+            background: white;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            width: 200px;
+            margin: 0 10px;
+            padding: 20px;
+            transition: transform 0.3s;
+        }
+        .pricing-plan:hover {
+            transform: scale(1.05);
+            border-color: #007BFF;
+        }
+        .pricing-plan h3 {
+            font-size: 1.8em;
+            margin: 10px 0;
+        }
+        .pricing-plan p {
+            font-size: 1.1em;
+            margin: 10px 0;
+        }
+        footer {
+            background: #343a40;
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+        }
+        footer a {
+            color: #007BFF;
+            text-decoration: none;
+        }
+        .social-icons {
+            margin-top: 10px;
+        }
+        .social-icons a {
+            margin: 0 10px;
+            color: white;
+            text-decoration: none;
+            font-size: 1.5em;
+        }
+        @media (max-width: 768px) {
+            .pricing-table {
+                flex-direction: column;
+                align-items: center;
+            }
+            .pricing-plan {
+                margin: 10px 0;
+            }
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Power Gym</h1>
+    <p>Your AI-Powered Gym Management Solution</p>
+</header>
+
+<section class="hero">
+    <h2>Transform Your Gym with AI</h2>
+    <p>Improve member retention, optimize fitness experiences, and automate engagement.</p>
+    <a href="#pricing" class="cta-button">Get Started Today</a>
+</section>
+
+<section class="features">
+    <h2>Our Features</h2>
+    <div class="feature">
+        <strong>📊 Member Activity Tracking</strong>
+        <p>Gain insights into member activities to personalize their fitness journey.</p>
+    </div>
+    <div class="feature">
+        <strong>🔍 AI-Powered Churn Prediction</strong>
+        <p>Identify at-risk members and take proactive steps to keep them engaged.</p>
+    </div>
+    <div class="feature">
+        <strong>🏋️ Personalized Workout Recommendations</strong>
+        <p>Provide tailored fitness plans that adjust to individual progress.</p>
+    </div>
+    <div class="feature">
+        <strong>🤖 Automated Member Engagement</strong>
+        <p>Send timely reminders and motivational messages to boost retention.</p>
+    </div>
+</section>
+
+<section class="how-it-works">
+    <h2>How It Works</h2>
+    <div class="step">1. Sign Up and Set Up Your Gym Profile</div>
+    <div class="step">2. Integrate with Your Existing Management Tools</div>
+    <div class="step">3. Start Analyzing Member Data with AI Insights</div>
+    <div class="step">4. Optimize Engagement Strategies for Better Retention</div>
+</section>
+
+<section class="testimonials">
+    <h2>What Our Clients Say</h2>
+    <div class="testimonial">“Power Gym has completely transformed our member engagement!” - Jane Doe, Gym Owner</div>
+    <div class="testimonial">“The insights we get from AI are invaluable for our business growth.” - John Smith, Fitness Manager</div>
+</section>
+
+<section class="pricing" id="pricing">
+    <h2>Pricing Plans</h2>
+    <div class="pricing-table">
+        <div class="pricing-plan">
+            <h3>Basic</h3>
+            <p>$99/month</p>
+            <p>For small gyms & studios</p>
+            <p>Includes core features & support</p>
+            <a href="#" class="cta-button">Choose Plan</a>
+        </div>
+        <div class="pricing-plan">
+            <h3>Pro</h3>
+            <p>$199/month</p>
+            <p>For medium to large gyms</p>
+            <p>Includes all features & priority support</p>
+            <a href="#" class="cta-button">Choose Plan</a>
+        </div>
+    </div>
+</section>
+
+<footer>
+    <p>&copy; 2023 Power Gym. All rights reserved.</p>
+    <nav>
+        <a href="#features">Features</a> | 
+        <a href="#how-it-works">How It Works</a> | 
+        <a href="#pricing">Pricing</a>
+    </nav>
+    <div class="social-icons">
+        <a href="#">🌐</a>
+        <a href="#">📘</a>
+        <a href="#">🐦</a>
+    </div>
+</footer>
+
+</body>
+</html>
