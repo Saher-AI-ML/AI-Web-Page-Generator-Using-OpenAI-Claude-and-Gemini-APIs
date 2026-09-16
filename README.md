@@ -1,4 +1,4 @@
-# 🚀 AI Web Page Generator — OpenAI vs. Claude vs. Gemini
+# AI Web Page Generator — OpenAI vs. Claude vs. Gemini
 
 [![View on nbviewer](https://img.shields.io/badge/render-nbviewer-orange?logo=jupyter)](https://nbviewer.org/github/Saher-AI-ML/AI-Web-Page-Generator-Using-OpenAI-Claude-and-Gemini-APIs/blob/main/AI%20Web%20Page%20Generator%20Using%20OpenAI%2C%20Claude%2C%20and%20Gemini%20APIs.ipynb)
 
