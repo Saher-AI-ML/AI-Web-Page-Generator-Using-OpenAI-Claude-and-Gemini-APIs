@@ -73,10 +73,3 @@ Each is a complete, self-contained landing page — just open it in a browser.
    landing page for any product or business idea.
 
 5. **Run all cells** and open the three generated HTML files to compare results.
-
-## Why this is powerful
-
-This isn't just "ask an AI for some HTML" — it's a structured, repeatable benchmark
-that turns a single well-engineered prompt into a multi-model design bake-off,
-giving you an instant, apples-to-apples view of which model produces the most
-polished, conversion-ready front-end for your product.
